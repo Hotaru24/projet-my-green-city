@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>My Green City</title>
-  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -12,30 +12,45 @@
     <nav>
     </nav>
   </header>
-  <main>
-    <section id="actions">
+  <div class="container">
+    <section id="ctn_actions">
     </section>
 
-    <section id="associations">
+    <section id="ctn_associations">
       <h2>ASSOCIATIONS</h2>
-      <article>
-        <img src="url" alt="asso1">
-        <a href="URL de la page">en savoir plus</a>
-      </article>
-      <article>
-        <img src="url" alt="asso2">
-        <a href="URL de la page">en savoir plus</a>
-      </article>
-      <article>
-        <img src="url" alt="asso3">
-        <a href="URL de la page">en savoir plus</a>
-      </article>
-    </section>
 
-    <section id="déchets">
+		<div class="carousel-wrapper">
+		  <span id="item-1"></span>
+		  <span id="item-2"></span>
+		  <span id="item-3"></span>
+		  <div class="carousel-item item-1">
+		    
+		    <p>En savoir plus</p>
+		    <a class="arrow arrow-prev" href="#item-3"></a>
+		    <a class="arrow arrow-next" href="#item-2"></a>
+		  </div>
+		  
+		  <div class="carousel-item item-2">
+		    
+		    <p>En savoir plus</p>
+		    <a class="arrow arrow-prev" href="#item-1"></a>
+		    <a class="arrow arrow-next" href="#item-3"></a>
+		  </div>
+		  
+		  <div class="carousel-item item-3">
+		    
+		    <p>En savoir plus</p>
+		    <a class="arrow arrow-prev" href="#item-2"></a>
+		    <a class="arrow arrow-next" href="#item-1"></a>
+		  </div>
+		</div>
+
+
+    <section id="ctn_déchets">
     </section>
+    <section id="ctn_contact"></section>
   </main>
-  <footer>
+  <footer id="ctn_footer">
   </footer>
 </body>
 
