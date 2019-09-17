@@ -8,6 +8,7 @@
 
 		<meta name="author" content="#">
 		<meta name="description" content="My Green City blablabla">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
     	<link rel="stylesheet" href="common.css">
 		<link rel="stylesheet" href="style.css">
