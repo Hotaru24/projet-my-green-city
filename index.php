@@ -19,11 +19,13 @@
 	</head>
 
 	<body>
-    <section id="ctn_header"></section>
-      <div id="container">
-        <section id="ctn_action"></section>
-        <section id="ctn_association"></section>
-        <section id="ctn_dechet"></section>
-        <section id="ctn_contact"></section>
-      </div><!-- Fin Container -->
-    <section id="ctn_footer"></section>
+	    <section id="ctn_header"></section>
+	      <div id="container">
+	        <section id="ctn_action"></section>
+	        <section id="ctn_association"></section>
+	        <section id="ctn_dechet"></section>
+	        <section id="ctn_contact"></section>
+	      </div><!-- Fin Container -->
+	    <section id="ctn_footer"></section>
+	</body>
+</html>
