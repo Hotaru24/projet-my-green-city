@@ -1,0 +1,156 @@
+h1 {
+    position: absolute;
+    color: white;
+    line-height: 20px;
+    left: 35%;
+}
+
+nav {
+    background-color: green;
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    padding: 15px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+li {
+    list-style: none;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav li a:hover {
+  color: lightcoral;
+}
+
+#logo {
+    display: block;
+    font-size: 2em;
+}
+
+/* menu */
+
+nav .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+  }
+  
+  /* menu icon */
+  
+  nav .menu-icon {
+    cursor: pointer;
+    float: right;
+    position: relative;
+    bottom: 15px;
+    user-select: none;
+  }
+  
+  nav .menu-icon .navicon {
+    background: white;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+  }
+  
+  nav .menu-icon .navicon:before,
+  nav .menu-icon .navicon:after {
+    background: white;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+  }
+  
+  nav .menu-icon .navicon:before {
+    top: 5px;
+  }
+  
+  nav .menu-icon .navicon:after {
+    top: -5px;
+  }
+  
+  /* menu btn */
+  
+  nav .menu-btn {
+    display: none;
+  }
+  
+  nav .menu-btn:checked ~ .menu {
+    max-height: 240px;
+  }
+  
+  nav .menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+  }
+  
+  nav .menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+  }
+  
+  nav .menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+  }
+  
+  nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+  nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+  }
+  
+  .banner img {
+    max-width: 100%;
+  }
+
+@media screen and (min-width: 768px) {
+
+  #logo {
+    position: absolute;
+  }
+
+  ul {
+      background-color: green; 
+      line-height: 15px;   
+  }
+
+  li {
+      display: block;
+      text-transform: uppercase;   
+  }
+
+  nav .menu {
+    display: flex;
+    justify-content: flex-end;
+    max-height: none;
+  }
+
+  nav .menu a {
+      transition: 0.4s;
+      text-decoration: none;
+      color: white;
+      margin: 0 10px;
+      padding: 0 10px;
+  }
+
+  nav .menu a:hover {
+      background-color: white;
+      color: green;
+      padding: 24px 10px;
+  }
+
+  nav .menu-icon {
+    display: none;
+  }
+}
