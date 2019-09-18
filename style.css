@@ -1,22 +1,38 @@
+h2, h3
+{
+    text-align: center;
+}
+
 .content_conseil .left, 
 .content_conseil .right,
 .content_points_collecte .left,
 .content_points_collecte .right
 {
-    display: inline-block;
-    width: 49%;
+
+    width: 45%;
 
 }
-.content_conseil .left,
-.content_points_collecte .right
+.content_conseil img
 {
-    display: inline-flex;
-    width: 200px;
-    
+    max-width: 400px;
+    justify-content: center;
 }
+
+.content_points_collecte,
+.content_conseil
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
 .accordion::after
 {
  content: "+";
+
+
 
 }
 
