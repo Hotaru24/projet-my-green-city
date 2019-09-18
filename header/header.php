@@ -4,14 +4,14 @@
 </head>
 
 <nav>
-    <a href="" class="logo">My green city</a>
+    <a href="" id="logo">My green city</a>
         <input class="menu-btn" type="checkbox" id="menu-btn" />
         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
     <ul class="menu">
-        <li><a href="#actions">Actions</a></li>
-        <li><a href="#associations">Associations</a></li>
-        <li><a href="#dechets">Déchets</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#ctn_action">Actions</a></li>
+        <li><a href="#ctn_association">Associations</a></li>
+        <li><a href="#ctn_dechet">Déchets</a></li>
+        <li><a href="#ctn_contact">Contact</a></li>
     </ul>
 </nav>
 
