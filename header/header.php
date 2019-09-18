@@ -1,5 +1,5 @@
 <head>
-    <link rel="stylesheet" href="styleNavbar.css" />
+    <link rel="stylesheet" href="styleHeader.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
