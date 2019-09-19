@@ -1,7 +1,8 @@
 h2, h3
 {
+
     text-align: center;
-    color:  rgb(0, 133, 22);
+
 }
 
 .content_conseil .left, 
@@ -24,7 +25,9 @@ h2, h3
 
 details
 {
+
     max-width: 800px;
+
 }
 
 summary
@@ -47,6 +50,25 @@ summary
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+
+}
+
+.content_points_collecte .right
+{
+
+    overflow: hidden;
+
+}
+
+@media screen and (min-width: 768px)
+{
+    .content_points_collecte 
+    
+        {
+
+            flex-direction: column;
+
+        }
 
 }
 
