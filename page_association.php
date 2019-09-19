@@ -10,11 +10,11 @@
 		<meta name="description" content="My Green City blablabla">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link rel="stylesheet" href="../../reset.css">
-		<link rel="stylesheet" href="../../common.css">
-		<link rel="stylesheet" href="../../style.css">
-		<link rel="stylesheet" href="../../header/styleHeader.css">
-        <link rel="stylesheet" href="../../style_jennifer.css">
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="common.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="header/styleHeader.css">
+        <link rel="stylesheet" href="style_jennifer.css">
         
 
 		<!--Google Fonts -->
@@ -24,13 +24,12 @@
 
 	<body>
 		<section id="ctn_header">
-			<?php include '../../header/header.php'; ?>
+			<?php include 'header/header.php'; ?>
 		</section>
 		<div id="container">
-		<h2>ACTIONS</h2>
+		<h2>ASSOCIATION</h2>
 			<article>
-				<img src="../images/bio.jpg" alt="Achetez bio">
-				<H2>Achetez bio à Nantes</H2>
+				<H2>Les boîtes vertes</H2>
 				<h3>Informations</h3>
 					<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
 				<h3>Description</h3>
@@ -38,7 +37,7 @@
 			</article>
 		</div><!-- Fin Container -->
 		<section id="ctn_footer">
-			<?php include '../../footer.php'; ?>
+			<?php include 'footer.php'; ?>
 		</section>
 	</body>
 </html>
