@@ -5,30 +5,7 @@
   <meta charset="UTF-8">
   <title>My Green City</title>
   <link rel="stylesheet" href="style_Associations.css">
-
-  <script>
-    var slideIndex = 1;
-    showDivs(slideIndex);
-
-    function plusDivs(n) {
-      showDivs(slideIndex += n);
-    }
-
-    function showDivs(n) {
-      var i;
-      var x = document.getElementsByClassName("item_slider");
-      if (n > x.length) {
-        slideIndex = 1
-      }
-      if (n < 1) {
-        slideIndex = x.length
-      }
-      for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
-      }
-      x[slideIndex - 1].style.display = "block";
-    }
-  </script>
+  <script type="text/javascript" src="script.js"></script>
 </head>
 
 <body>
