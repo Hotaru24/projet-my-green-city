@@ -1,133 +1,49 @@
-/* 
-	RESET.CSS
+/*
+
+    RESPONSIVE
+
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+@media screen and (min-width: 768px) {
+    footer .ctn_description_footer {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    footer .ctn_description_footer div:last-child,
+    footer .ctn_description_footer div:first-child {
+        width: 100%;
+
+    }
+    footer .ctn_description_footer div:last-child{
+        width: 100%;
+        margin: 15px 0 0 0;
+    }
+    footer nav {
+        margin-top: 15px;
+        padding-top: 15px;
+    }
+    form .button {
+        text-align: center;
+    }
+    footer .ctn_description_footer div:first-child {
+        width: 100%;
+    }
+    footer .ctn_description_footer div:last-child {
+        width: 100%;
+        margin-top: 25px;
+    }
 }
 
-/* 
-	COMMON CSS
+/*
+
+    FORM
+
 */
 
-a, p {
-
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    line-height: 25px;
-	text-decoration: none; 
-}
-
-h2, h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    font-size: 22px;
-    letter-spacing: 1px;
-}
-h3 {
-    font-size: 18px;
-}
-section{
-	padding: 2% 3%; 
-	width: 94%;
-}
-header {
-    margin-bottom: 25px;
-    text-align: left;
-}
-/* 
-	PAGES / ARTICLES
-*/
-
-#article_page section {
-    padding: 6% 10%;
-    width: 80%;
-}
-#article_page .ctn_description{
-    background-color: #ccc;
-}
-.ctn_header_img {
-	position: relative;
-	height: 300px;
-	background: url(img/img_article.jpg) center 0 no-repeat fixed;;
-	background-size: cover;  
-}
-.ctn_header_img header {
-    position: absolute;
-    bottom: -90px;
-    left: 7%;
-    bottom: 0;
-    padding: 3%;
-    background-color: #fff;
-    margin: 0;
-    max-width: 50%;
-}
-.ctn_header_img header h2 {
-    font-size: 35px;
-    text-align: left;
-    line-height: 45px;
-}
-.ctn_information h3 {
-    margin-bottom: 30px;
-}
-.ctn_information_flex {
-    display: flex;
-    align-items: center;
-}
-.ctn_information_about p{
-    width: 80%;
-}
-.ctn_information_flex div {
-    width: 20%;
-    text-align: center;
-}
-.ctn_information_flex img {
-    width: 70px;
-}
 #ctn_contact {
     background-color: #cccccc;
-    display: flex;
-    flex-direction: column;
 }
 form input {
     padding: 15px 1%;
@@ -140,6 +56,7 @@ form div {
     margin: 0 0 25px 0;
 }
 form label {
+    font-family: 'Open Sans', sans-serif;
     display: inline-block;
     width: 100%;
 }
@@ -151,7 +68,6 @@ form textarea {
     border: none;
 }
 form button {
-    float: right;
     margin-top: 50px;
     padding: 15px 30px;
     border: none;
@@ -159,9 +75,28 @@ form button {
     text-transform: uppercase;
     letter-spacing: 1px;
     cursor: pointer;
+    background-color: #009848;
+    color: #fff;
+}
+form button:hover {
+    background-color: #11C841
+}
+form .button {
+    text-align: right;
 }
 form abbr {
 	color: red; 
+}
+
+/*
+
+    FOOTER
+
+*/
+
+#ctn_footer {
+    padding: 0;
+    width: 100%;
 }
 footer {
     position: relative;
@@ -171,7 +106,8 @@ footer {
     color: #fff;
 }
 footer .ctn_description_footer {
-    display: flex;
+    width: 100%;
+    flex-direction: row;
 }
 footer .ctn_description_footer div:first-child{
     width: 60%;
@@ -208,78 +144,21 @@ footer nav {
     padding-top: 30px;
     text-align: center;
 }
-.ctn_go_top a {
+footer .ctn_go_top a {
     position: absolute;
+    right: 2%;
+    width: 50px;
+    height: 50px;
     border: 1px solid #fff;
     border-radius: 40px;
     text-decoration: none;
-    width: 50px;
-    height: 50px;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    line-height: 65px;
+    line-height: 50px;
     color: #fff;
     font-size: 35px;
     background-color: #000;
-    right: 2%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 768px) {
-	footer .ctn_description_footer {
-		display: flex;
-		flex-direction: column;
-	}
-	footer .ctn_description_footer div:last-child,
-	footer .ctn_description_footer div:first-child {
-		width: 100%;
-
-	}
-	footer .ctn_description_footer div:last-child{
-		width: 100%;
-		margin: 15px 0 0 0;
-	}
-	footer nav {
-		margin-top: 15px;
-		padding-top: 15px;
-	}
-#article_page section {
-
-    background-size: 100% auto;
-    padding: 9%;
-    width: 83%;
-    height: auto;
-
-}
-.ctn_header_img header {
-
-    left: inherit;
-    padding: 9%;
-    max-width: inherit;
-    position: inherit;
-    width: 82%;
-    bottom: inherit;
-
-}
-.ctn_information_flex {
-    flex-direction: column;
-}
-.ctn_information_flex div {
-    margin-top: 30px;
-}
-.ctn_information_about p {
-    width: 100%;
-}
+footer .ctn_go_top a:hover {
+    background-color: #11C841
 }
