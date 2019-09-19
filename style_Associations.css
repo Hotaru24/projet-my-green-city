@@ -1,0 +1,100 @@
+#ctn_associations {
+  background-color: rgb(102, 204, 0);
+}
+
+
+/*..................... SECTION Associations DESKTOP....................*/
+
+.button-left,
+.button-right {
+  display: none;
+}
+
+.ctn_slider {
+  display: flex;
+  justify-content: space-around;
+}
+
+.item_slider img{
+  max-height: 300px;
+  max-width: 300px;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  border-radius: 60px; 
+  border: solid rgb(0 102 51);
+  box-shadow: 0px 3px 5px;
+}
+
+.item_slider:hover {
+    opacity : 0.5;         
+    cursor: pointer;
+}
+
+
+/*............... SECTION Associations MOBILE - Media Queries ..............*/
+
+@media screen and (max-width: 768px){
+
+.button-left,
+.button-right {
+  display: unset; 
+}
+
+
+.ctn_slider {
+   position: relative;
+   padding: 0;
+   text-align: center;
+   background-color: rgb(102, 204, 0);
+}
+.ctn_slider img {
+   max-height: 300px;
+   max-height: 300px;
+   border-radius: 60px;
+   box-shadow: 0px 3px 5px;
+}
+
+.item_slider {
+   display: none;
+   margin: 0 auto;
+   overflow: hidden;
+}
+
+
+.ctn_slider .item_slider:first-child {
+   display: block;
+}
+
+.button-left,
+.button-right {
+  position: absolute; 
+  top: 50%; 
+  margin: 0;
+  color: green;
+  width: 10%;
+  font-size: 50px;
+  max-height: 80px;
+  max-width: 50px;
+}
+
+ .button-left {
+  
+  left: 46px;
+  top: 196px;
+}
+
+.button-right {
+  right: 46px;
+  top: 196px;
+}
+}
+
+
+
+
+
+
+
+
+
+

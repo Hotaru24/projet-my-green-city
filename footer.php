@@ -1,12 +1,3 @@
-
-	<head>
-		<link rel="stylesheet" href="style_jennifer.css">
-
-		<!--Google Fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,900" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet"> 
-	</head>
-
 	<footer id="ctn_footer">
 		<div class="ctn_description_footer">
 			<div>
