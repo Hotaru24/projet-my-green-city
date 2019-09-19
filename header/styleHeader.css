@@ -1,7 +1,6 @@
 .header {
     background-color: #009848;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
-    padding: 15px;
 }
 
 .header ul {
@@ -24,7 +23,9 @@
 #logo {
     display: block;
     font-size: 2em;
-    line-height: 50px;
+    padding-left: 20px;
+    line-height: 35px;
+    position: absolute;
 }
 
 /* menu */
@@ -40,8 +41,8 @@
   .header .menu-icon {
     cursor: pointer;
     float: right;
-    position: relative;
-    bottom: 25px;
+    bottom: 15px;
+    padding: 20px;
     user-select: none;
   }
   
@@ -80,7 +81,7 @@
   }
   
   .header .menu-btn:checked ~ .menu {
-    max-height: 240px;
+    max-height: 260px;
   }
   
   .header .menu-btn:checked ~ .menu-icon .navicon {
@@ -160,11 +161,10 @@
 }
 
 @media screen and (min-width: 768px) {
-
   #logo {
-    position: absolute;
+    padding: 10px;
   }
-
+  
   .header ul {
       background-color: #009848;   
   }
