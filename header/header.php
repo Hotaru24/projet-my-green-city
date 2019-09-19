@@ -10,6 +10,15 @@
     </ul>
 </nav>
 
-<div class="banner">
-    <img src="https://via.placeholder.com/1000x250" />
+<div class="carrousel">
+    <div>
+        <img id="coverImage" src="https://via.placeholder.com/1000x250" alt="Little wood" />
+    </div>
+    <a class="prev" onclick="previousSlide()">&#10094;</a>
+    <a class="next" onclick="nextSlide()">&#10095;</a>
+</div>
+<div class="containerDots">
+    <span class="dot" onclick="showSlide(0)"></span>
+    <span class="dot" onclick="showSlide(1)"></span>
+    <span class="dot" onclick="showSlide(2)"></span>
 </div>

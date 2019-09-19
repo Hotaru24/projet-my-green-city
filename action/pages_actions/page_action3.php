@@ -10,7 +10,8 @@
 		<meta name="description" content="My Green City blablabla">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link rel="stylesheet" href="common.css">
+		<link rel="stylesheet" href="../../reset.css">
+		<link rel="stylesheet" href="../../common.css">
 		<link rel="stylesheet" href="../../style.css">
 		<link rel="stylesheet" href="../../header/styleHeader.css">
         <link rel="stylesheet" href="../../style_jennifer.css">
