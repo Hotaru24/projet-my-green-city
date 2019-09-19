@@ -1,9 +1,4 @@
-<head>
-    <link rel="stylesheet" href="styleHeader.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-
-<nav>
+<nav class="header">
     <a href="" id="logo">My green city</a>
         <input class="menu-btn" type="checkbox" id="menu-btn" />
         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
