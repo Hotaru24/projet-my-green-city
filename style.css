@@ -18,7 +18,6 @@ h2, h3
 .content_points_collecte .right,
 .content_conseil .left
 {
-    display: flex;
     justify-content: center;
     margin-bottom: 20px;
 }
@@ -60,15 +59,40 @@ summary
 
 }
 
-@media screen and (min-width: 768px)
+.right img 
 {
-    .content_points_collecte 
-    
-        {
 
-            flex-direction: column;
+    width: 100%;
 
-        }
+}
+
+@media screen and (max-width: 768px)
+{
+    .content_points_collecte, 
+    .content_conseil 
+    {
+
+        flex-direction: column;
+
+    }
+
+    .content_conseil .left, 
+    .content_conseil .right, 
+    .content_points_collecte .left, 
+    .content_points_collecte .right 
+    {
+
+        width: 100%;
+
+    }
+
+    .content_conseil img
+    {
+
+        display: none;
+
+    }
+
 
 }
 
