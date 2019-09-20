@@ -127,6 +127,10 @@ footer .ctn_sociaux_footer a {
 	text-align: center;
 	color: #ffffff;
 }
+footer .ctn_sociaux_footer a:hover {
+    background-color: #11C841;
+    border-color: #000000;
+    }
 footer .ctn_sociaux_footer a:last-child {
 	margin-right: 0;
 }
@@ -134,9 +138,14 @@ footer nav ul li {
 	display: inline-block;
 }
 footer nav ul li a {
+    position: relative;
 	text-transform: uppercase;
 	color: #ffffff; 
 }
+footer nav ul li a:hover {
+    color: #11C841;
+    content: ""
+    }
 footer nav {
     display: block;
     border-top: 1px solid #fff;
@@ -160,5 +169,5 @@ footer .ctn_go_top a {
     background-color: #000;
 }
 footer .ctn_go_top a:hover {
-    background-color: #11C841
+    background-color: #11C841;
 }
