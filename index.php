@@ -32,49 +32,43 @@
 			?>
 		</header>
 			<div id="container">
-				<section id="ctn_action">
-				<h2>ACTIONS</h2>
-					<div class="ctn_slider">
+
+				<section id="ctn_actions">
+					<h2>ACTIONS</h2>
+					<div class="ctn_slider"> 
 						<div class="item_slider">
-						<a href="action/pages_actions/page_action1.php"><img src="https://i.postimg.cc/k5rb85F9/bio-Convert-Image.jpg(225 ko)
-				https://i.postimg.cc/k5rb85F9/bio-Convert-Image.jpg
-				" alt="image-bio" /></a>
+							<a href="action/pages_actions/page_action1.php"><img src="https://i.postimg.cc/k5rb85F9/bio-Convert-Image.jpg" alt="image-bio" /></a>
 						</div>
 						<div class="item_slider">
-						<a href="action/pages_actions/page_action2.php"> <img src="https://i.postimg.cc/BQ4s8f1y/recyclage-Convert-Image.jpg(68 ko)
-				https://i.postimg.cc/BQ4s8f1y/recyclage-Convert-Image.jpg
-				" alt="image-recyclage"/></a>
+							<a href="action/pages_actions/page_action2.php"> <img src="https://i.postimg.cc/BQ4s8f1y/recyclage-Convert-Image.jpg" alt="image-recyclage"/></a>
 						</div>
 						<div class="item_slider">
-						<a href="action/pages_actions/page_action2.php"><img src="https://i.postimg.cc/RV61n257/Reduction-Dechet-Convert-Image.jpg(14 ko)
-				https://i.postimg.cc/RV61n257/Reduction-Dechet-Convert-Image.jpg
-				" alt="image-dechet" /></a>
+							<a href="action/pages_actions/page_action2.php"><img src="https://i.postimg.cc/RV61n257/Reduction-Dechet-Convert-Image.jpg" alt="image-dechet" /></a>
 						</div>
 					</div>
 					<button  class="button-left" onclick="plusDivs(-1)">&#10094;</button>
-					<button  class="button-right" onclick="plusDivs(-1)">&#10094;</button>
-				</div>
+					<button  class="button-right" onclick="plusDivs(1)">&#10094;</button>
 				</section>
-				<section id="ctn_association">
+
+				<section id="ctn_associations">
 					<h2>ASSOCIATIONS</h2>
-						<div class="ctn_slider">
-							<div class="item_slider">
+					<div class="ctn_img_assos">
+						<div class="img_assos">
 							<a href="page_association.php"> <img src="https://i.postimg.cc/qBzQFzH1/logo1.png" alt="logo_asso1" /> </a>
-							</div>
-							<div class="item_slider">
-							<a href="page_association.php"><img src="https://i.postimg.cc/kMzwPqnq/logo2.png" alt="logo_asso2"/></a>
-							</div>
-							<div class="item_slider">
-							<a href="page_association.php"> <img src="https://i.postimg.cc/vZdzDhgK/logo3.png" alt="logo_asso3" /></a>
-							</div>
 						</div>
-						<button class="button-left" onclick="plusDivs(-1)">&#10094;</button>
-						<button class="button-right" onclick="plusDivs(1)">&#10095;</button>
+						<div class="img_assos">
+							<a href="page_association.php"><img src="https://i.postimg.cc/kMzwPqnq/logo2.png" alt="logo_asso2"/></a>
+						</div>
+						<div class="img_assos">
+							<a href="page_association.php"> <img src="https://i.postimg.cc/vZdzDhgK/logo3.png" alt="logo_asso3" /></a>
+						</div>
+					</div>
 				</section>
+
 				<section id="ctn_dechet">
-				<header>
-				<h2>Gestion des dechets</h2>
-				</header>
+					<header>
+					<h2>Gestion des dechets</h2>
+					</header>
 					<h3>Conseil</h3>
 					<div class="content_conseil" >
 						<div class="left">
@@ -83,9 +77,7 @@
 				"/>
 						</div>
 						<div class="right">
-							<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, temporibus? Quibusdam id nesciunt, mollitia assumenda possimus aliquid ad voluptate blanditiis eius unde vero nihil a et facere. Assumenda, nemo delectus. Maecenas erat ipsum, iaculis ut ex vel, maximus placerat augue. Aliquam auctor lorem a risus porta laoreet. Mauris luctus metus orci, a suscipit leo pulvinar in. Vivamus convallis vulputate diam ac hendrerit. Quisque a iaculis massa. Curabitur eu scelerisque tellus. Etiam dapibus lectus a dignissim efficitur. Cras vestibulum interdum nunc. Morbi condimentum massa sit amet orci commodo, ac feugiat nibh accumsan. Nulla vitae eleifend purus. Sed dictum pretium velit.
-
-Donec vel aliquam mauris. Curabitur in dui lacus. </p>
+							<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, temporibus? Quibusdam id nesciunt, mollitia assumenda possimus aliquid ad voluptate blanditiis eius unde vero nihil a et facere. Assumenda, nemo delectus. Maecenas erat ipsum, iaculis ut ex vel, maximus placerat augue. Aliquam auctor lorem a risus porta laoreet. Mauris luctus metus orci, a suscipit leo pulvinar in. Vivamus convallis vulputate diam ac hendrerit. Quisque a iaculis massa. Curabitur eu scelerisque tellus. Etiam dapibus lectus a dignissim efficitur. Cras vestibulum interdum nunc. Morbi condimentum massa sit amet orci commodo, ac feugiat nibh accumsan. Nulla vitae eleifend purus. Sed dictum pretium velit. Donec vel aliquam mauris. Curabitur in dui lacus. </p>
 						</div>
 					</div>
 					<hr />
@@ -119,7 +111,9 @@ Donec vel aliquam mauris. Curabitur in dui lacus. </p>
 							<img src="nantes.png"/>
 						</div>
 					</div>
-					<section id="ctn_contact">
+					</section>
+
+										<section id="ctn_contact">
 						<header>
 						<h2>Contact Us</h2>
 						</header>
@@ -141,7 +135,16 @@ Donec vel aliquam mauris. Curabitur in dui lacus. </p>
 							</div>
 						</form>
 					</section>
+
+
+
+
+
+
 			</div><!-- Fin Container -->
+
+
+
 			<section id="ctn_footer">
 				<?php
 				include 'footer.php';
