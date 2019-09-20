@@ -83,7 +83,9 @@
 				"/>
 						</div>
 						<div class="right">
-							<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, temporibus? Quibusdam id nesciunt, mollitia assumenda possimus aliquid ad voluptate blanditiis eius unde vero nihil a et facere. Assumenda, nemo delectus.</p>
+							<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, temporibus? Quibusdam id nesciunt, mollitia assumenda possimus aliquid ad voluptate blanditiis eius unde vero nihil a et facere. Assumenda, nemo delectus. Maecenas erat ipsum, iaculis ut ex vel, maximus placerat augue. Aliquam auctor lorem a risus porta laoreet. Mauris luctus metus orci, a suscipit leo pulvinar in. Vivamus convallis vulputate diam ac hendrerit. Quisque a iaculis massa. Curabitur eu scelerisque tellus. Etiam dapibus lectus a dignissim efficitur. Cras vestibulum interdum nunc. Morbi condimentum massa sit amet orci commodo, ac feugiat nibh accumsan. Nulla vitae eleifend purus. Sed dictum pretium velit.
+
+Donec vel aliquam mauris. Curabitur in dui lacus. </p>
 						</div>
 					</div>
 					<hr />

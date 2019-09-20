@@ -1,7 +1,10 @@
-#ctn_associations {
-  background-color: rgb(102, 204, 0);
+#ctn_association {
+  position: relative;
+  background-color: #009848;
 }
-
+#ctn_action{
+  position: relative;
+}
 
 /*..................... SECTION Associations DESKTOP....................*/
 
@@ -42,10 +45,8 @@
 
 
 .ctn_slider {
-   position: relative;
    padding: 0;
    text-align: center;
-   background-color: rgb(102, 204, 0);
 }
 .ctn_slider img {
    max-height: 300px;
