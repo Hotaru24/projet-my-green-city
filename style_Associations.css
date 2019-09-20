@@ -1,0 +1,121 @@
+#ctn_associations {
+    background-color: #009848;
+    padding: 3%;
+    width: 94%;
+
+}
+
+/*..................... SECTION Associations DESKTOP....................*/
+
+.button-left,
+.button-right {
+  display: none;
+}
+
+.ctn_slider,
+.ctn_img_assos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.item_slider img,
+.img_assos img{
+  max-height: 300px;
+  max-width: 300px;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  border-radius: 60px; 
+  border: solid rgb(0 102 51);
+  box-shadow: 0px 3px 5px;
+}
+
+.ctn_img_assos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.item_slider:hover,
+.img_assos:hover {
+    opacity : 0.5;         
+    cursor: pointer;
+}
+#ctn_actions {
+     position: relative;
+}
+.button-left,
+.button-right {
+    top: 45%;
+}
+
+/*............... SECTION Associations MOBILE - Media Queries ..............*/
+
+@media screen and (max-width: 768px){
+
+
+.button-left,
+.button-right {
+  display: unset; 
+}
+
+.ctn_img_assos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_assos img {
+  max-height: 300px;
+  max-width: 300px;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  border-radius: 60px; 
+  border: solid rgb(0 102 51);
+  box-shadow: 0px 3px 5px;
+}
+
+.ctn_slider {
+   padding: 0;
+   text-align: center;
+}
+.ctn_slider img {
+   max-height: 300px;
+   max-height: 300px;
+   border-radius: 60px;
+   box-shadow: 0px 3px 5px;
+}
+
+.item_slider {
+   display: none;
+   margin: 0 auto;
+   overflow: hidden;
+}
+
+
+.ctn_slider .item_slider:first-child {
+   display: block;
+}
+
+.button-left,
+.button-right {
+  position: absolute; 
+  top: 50%; 
+  margin: 0;
+  color: green;
+  width: 10%;
+  font-size: 50px;
+  max-height: 80px;
+  max-width: 50px;
+}
+
+ .button-left {
+  left: 46px;
+}
+
+.button-right {
+  right: 46px;
+  transform: rotate(0.5turn);
+}
+
+
+}
