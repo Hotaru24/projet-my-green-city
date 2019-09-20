@@ -1,48 +1,100 @@
+@media screen and (min-width: 768px)
+{
+    .content_points_collecte, 
+    .content_conseil 
+    {
+
+        flex-direction: column;
+
+    }
+
+    .content_conseil .left, 
+    .content_conseil .right, 
+    .content_points_collecte .left, 
+    .content_points_collecte .right 
+    {
+
+        width: 100%;
+
+    }
+
+    .content_conseil img
+    {
+
+        display: none;
+
+    }
+
+
+}
+
+
+h2, h3
+{
+
+    text-align: center;
+
+}
+
 .content_conseil .left, 
 .content_conseil .right,
 .content_points_collecte .left,
 .content_points_collecte .right
 {
-    display: inline-block;
-    width: 49%;
+
+    width: 45%;
 
 }
-.content_conseil .left,
+
+.content_points_collecte .right,
+.content_conseil .left
+{
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+details
+{
+
+    max-width: 800px;
+
+}
+
+summary
+{
+    border: 3px solid #009848;
+    margin-bottom: 10px;
+    background: beige;
+}
+
+.content_conseil img
+{
+    max-width: 400px;
+    display: block;
+
+}
+
+.content_points_collecte,
+.content_conseil
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
 .content_points_collecte .right
 {
-    display: inline-flex;
-    width: 200px;
-    
-}
-.accordion::after
-{
- content: "+";
 
-}
-
- /* Style the buttons that are used to open and close the accordion panel */
-.accordion {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-  }
-  
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.accordion:hover .panel {
-    background-color: #ccc;
-    display: block;
-  }
-  
-  /* Style the accordion panel. Note: hidden by default */
-.panel {
-    padding: 0 18px;
-    background-color: white;
-    display: none;
     overflow: hidden;
-  } 
+
+}
+
+.right img 
+{
+
+    width: 100%;
+
+}
+
