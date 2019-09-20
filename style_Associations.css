@@ -1,7 +1,9 @@
 #ctn_associations {
-  background-color: rgb(102, 204, 0);
-}
+    background-color: #009848;
+    padding: 3%;
+    width: 94%;
 
+}
 
 /*..................... SECTION Associations DESKTOP....................*/
 
@@ -75,7 +77,6 @@
 .ctn_slider {
    padding: 0;
    text-align: center;
-   background-color: rgb(102, 204, 0);
 }
 .ctn_slider img {
    max-height: 300px;

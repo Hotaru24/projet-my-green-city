@@ -1,5 +1,5 @@
 <nav class="header">
-    <a href="" id="logo">My green city</a>
+    <a href="../index.php" id="logo">My green city</a>
         <input class="menu-btn" type="checkbox" id="menu-btn" />
         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
     <ul class="menu">
