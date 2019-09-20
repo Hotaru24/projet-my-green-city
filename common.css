@@ -69,7 +69,7 @@ header {
 .ctn_information_about p {
     width: 100%;
 }
-.carrousel, .containerDots{
+#article_page .carrousel, .containerDots{
     display: none;
 }
 #ctn_contact {
@@ -82,7 +82,7 @@ header {
 }
 .ctn_header_img {
     position: relative;
-    height: 400px;
+    height: 400px !important;
     background: url(images/img_article.jpg) center 0 no-repeat fixed;;
     background-size: cover;  
 }
