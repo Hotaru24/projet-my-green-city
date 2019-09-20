@@ -12,7 +12,7 @@
 
 <div class="carrousel">
     <div>
-        <img id="coverImage" src="https://via.placeholder.com/1000x250" alt="Little wood" />
+        <img id="coverImage" src="../action/images/feuille.png" alt="" />
     </div>
     <a class="prev" onclick="previousSlide()">&#10094;</a>
     <a class="next" onclick="nextSlide()">&#10095;</a>
