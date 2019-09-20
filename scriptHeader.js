@@ -1,6 +1,6 @@
 // Carrousel header
 
-const tableau = ['https://via.placeholder.com/1000x250', 'https://via.placeholder.com/1001x250', 'https://via.placeholder.com/1002x250'];
+const tableau = ['../action/images/feuille.png', '../action/images/green.png', '../action/images/mountain.png'];
 
 let currentSlide = 0;
 
