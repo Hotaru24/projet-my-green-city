@@ -22,16 +22,26 @@
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet"> 
 	</head>
 
-	<body>
+	<body id="article_page">
 		<section id="ctn_header">
 			<?php include '../../header/header.php'; ?>
 		</section>
+
+		<section class="ctn_header_img">
+			<header>
+				<h2>iam, quis nostrud exercitation ullamco laboris nisi ut aliquip </h2>
+			</header>
+		</section>
+
 		<div id="container">
 		<h2>ACTIONS</h2>
-            <article>
-                <img src="images/bio.jpg" alt="Tout pour réduire vos déchets">
-                <a href="URL de la page">en savoir plus</a>
-            </article>
+			<article>
+				<H2>Achetez bio à Nantes</H2>
+				<h3>Informations</h3>
+					<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+				<h3>Description</h3>
+					<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+			</article>
 		</div><!-- Fin Container -->
 		<section id="ctn_footer">
 			<?php include '../../footer.php'; ?>
